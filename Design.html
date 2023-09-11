@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link 
+ href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+ <link rel="stylesheet" href="./Design.css">
+</head>
+<body><!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link 
+ href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+ <link rel="stylesheet" href="./Design.css">
+</head>
+<body>
+ <div class="container">
+ <div>
+ <h1>Creating Page Content</h1>
+ <p>Inside the body element of our web site we will use our "Layout Picture" and create:</p>
+ <ul>
+ <li>A navigation bar</li>
+ <li>A slide show</li>
+ <li>A header</li>
+ <li>A footer</li>
+ </ul>
+ </div>
+ <div>
+ <p>HTML5 introduced several new semantic elements. Semantic elements are important to use because they define the structure of web pages and helps screen readers and search engines to read the page correctly.</p>
+ <p>These are some of the most common semantic HTML elements:</p>
+ <p>The section element can be used to define a part of a website with related content.</p>
+ <p>The article element can be used to define an individual piece of content.</p>
+ <p>The header element can be used to define a header (in a document, a section, or an article).</p>
+ <p>The footer element can be used to define a footer (in a document, a section, or an article).</p>
+ <p>The nav element can be used to define a container of navigation links.</p>
+ </div>
+ <div>
+ <h1>The Navigation Bar</h1>
+ We can use a nav or div element as a container for the navigation links.
+
+ <p> The w3-bar class is a container for navigation links.
+ </p>
+
+ <p> The w3-black class defines the color of the navigation bar.
+ </p>
+ The w3-bar-item and w3-button class styles the navigation links inside the bar.
+ </div>
+
+ <form autocomplete="off" id="w3-e">
+ <div class="exercisewindow">
+ <h2>Exercise</h2>
+ <div class="exe">
+ <span style="color:red"><</span>
+ nav
+ <span style="color:rgb(223, 45, 14)">></span>
+ <br>
+ <span class="tagcolor" style="color:red"><</span>
+ a
+ <span class="attri" style="color:red">
+ href
+ <span class="atrrib" style="color:blue">
+ ="#Band"
+
+ </span>class
+ <span class="att" style="color:blue">="w3-button w3-bar-item"
+
+ </span>
+ </span>
+ <span style="color:blue">></span>
+ </span>
+ Band
+ <span class="tagcolor" style="color:red"><</span>
+ /a
+ <span class="tagcolor" style="color:red">></span>
+ <br>
+ <span class="tagcolor" style="color:red"><</span>
+ a
+ <span class="attri" style="color:red">
+ href
+ <span class="atrrib" style="color:blue">
+ ="#Home"
+
+ </span>class
+ <span class="att" style="color:blue">="w3-button w3-bar-item"
+
+ </span>
+ </span>
+ <span style="color:blue">></span>
+ </span>
+ Home
+ <span class="tagcolor" style="color:red"><</span>
+ /a
+ <span class="tagcolor" style="color:red">></span>
+ <br>
+ <span class="tagcolor" style="color:red"><</span>
+ a
+ <span class="attri" style="color:red">
+ href
+ <span class="atrrib" style="color:blue">
+ ="#Contact"
+ 
+ </span>class
+ <span class="att" style="color:blue">="w3-button w3-bar-item"
+ 
+ </span>
+ </span>
+ <span style="color:blue">></span>
+ </span>
+ Contact
+ <span class="tagcolor" style="color:red"><</span>
+ /a
+ <span class="tagcolor" style="color:red">></span>
+
+ <br>
+ <span style="color:red"><</span>
+ /nav
+ <span style="color:rgb(223, 45, 14)">></span>
+ 
+ </div>
+ </div>
+ <br>
+ <button type="button" class="btn-success ">submit answer </button>
+
+
+ </div>
+
+ </form>
+ <div class="container">
+ <h1>Slide Show</h1>
+ 
+ <p> On the "Layout Draft" we have a "Slide show".</p>
+
+ <p> For the slide show we can use a <section> or <div> element as a picture container:
+ </p>
+ We need to add a little JavaScript to change the images every 3 seconds:
+ 
+
+ <form autocomplete="off" id="w3-e">
+ <div class="exercisewindow ">
+ <h2>Exercise</h2>
+ <div class="exe">
+ <span style="color:red"><</span>
+ section
+ <span style="color:rgb(223, 45, 14)">></span>
+ <br>
+ <span class="tagcolor" style="color:red"><</span>
+ img
+ <span class="attri" style="color:red">
+ class
+ <span class="atrrib" style="color:blue">
+ ="myslides"
+
+ </span>src
+ <span class="att" style="color:blue">="img_la.jpg"
+
+ </span>
+ style
+ <span class="att" style="color:blue">="width:100%"
+
+ </span>
+ </span>
+ 
+ </span>
+ 
+ <span class="tagcolor" style="color:red">></span>
+ <br>
+ <span class="tagcolor" style="color:red"><</span>
+ img
+ <span class="attri" style="color:red">
+ class
+ <span class="atrrib" style="color:blue">
+ ="myslides"
+
+ </span>src
+ <span class="att" style="color:blue">="img_ny.jpg"
+
+ </span>
+ style
+ <span class="att" style="color:blue">="width:100%"
+
+ </span>
+ </span>
+ 
+ </span>
+ 
+ <span class="tagcolor" style="color:red">></span>
+ 
+ <br>
+ <span style="color:red"><</span>
+ /section
+ <span style="color:rgb(223, 45, 14)">></span>
+ 
+ </div>
+ <br>
+ <button type="button" class="btn-success ">submit answer </button>
+
+
+ </div>
+
+ </form>
+ </div>
+ <div class="container">
+ <h1>Sections and Articles</h1>
+ <p>Looking at the "Layout Draft" we can see that the next step is to create articles.
+
+ First we will create a section or div element containing band information:</p>
+ <form autocomplete="off" id="w3-e">
+ <div class="exercisewindow ">
+ <h2>Exercise</h2>
+ <div class="exe">
+ 
+ <span style="color:red"><</span>section
+ <span style="color:red">class</span>
+ <span class="att" style="color:blue">="w3-container center"
+ <span style="color:red">style</span>
+ <span class="att" style="color:blue">="max-width:500px"
+ <span style="color:rgb(195, 21, 21)">></span>
+ 
+ </span>
+ <br>
+ <span style="color:rgb(213, 49, 49)"><</span>h2
+ <span style="color:red">class</span>
+ <span class="att" style="color:blue">="w3-wide"
+ <span style="color:rgb(195, 21, 21)">></span>THE BAND
+ <span style="color:rgb(160, 11, 11)"><</span>/h2
+ 
+ <span style="color:rgb(195, 21, 21)">></span>
+ <span style="color:red"><</span>/section
+ 
+ <span style="color:red">></span>
+ 
+</span>
+</div>
+<br>
+<button type="button" class="btn-success ">submit answer </button>
+
+</div>
+</form>
+
+
+ 
+
+ </div>
+
+<div class="container">
+ <h1>Footer</h1>
+ <p>Finally we will use a footer or div to create a footer</p>
+
+ <form autocomplete="off" id="w3-e">
+ <div class="exercisewindow">
+ <h2>Exercise</h2>
+ <div class="exe">
+ <span style="color:red"><</span>
+ footer
+ <span style="color:rgb(223, 45, 14)">></span>
+ <br>
+ <span class="tagcolor" style="color:red"><</span>
+ a
+ <span class="attri" style="color:red">
+ href
+ <span class="atrrib" style="color:blue">
+ ="#details"
+
+ </span>class
+ <span class="att" style="color:blue">="w3-button w3-bar-item"
+
+ </span>
+ </span>
+ <span style="color:blue">></span>
+ </span>
+ Details
+ <span class="tagcolor" style="color:red"><</span>
+ /a
+ <span class="tagcolor" style="color:red">></span>
+ <br>
+ <span class="tagcolor" style="color:red"><</span>
+ a
+ <span class="attri" style="color:red">
+ href
+ <span class="atrrib" style="color:blue">
+ ="#socialmedia"
+
+ </span>class
+ <span class="att" style="color:blue">="w3-button w3-bar-item"
+
+ </span>
+ </span>
+ <span style="color:blue">></span>
+ </span>
+ Socialmedia
+ <span class="tagcolor" style="color:red"><</span>
+ /a
+ <span class="tagcolor" style="color:red">></span>
+ <br>
+ <span class="tagcolor" style="color:red"><</span>
+ a
+ <span class="attri" style="color:red">
+ href
+ <span class="atrrib" style="color:blue">
+ ="#Contact"
+ 
+ </span>class
+ <span class="att" style="color:blue">="w3-button w3-bar-item"
+ 
+ </span>
+ </span>
+ <span style="color:blue">></span>
+ </span>
+ Contact
+ <span class="tagcolor" style="color:red"><</span>
+ /a
+ <span class="tagcolor" style="color:red">></span>
+
+ <br>
+ <span style="color:red"><</span>
+ /footer
+ <span style="color:rgb(223, 45, 14)">></span>
+ 
+ </div>
+ </div>
+ <br>
+ <button type="button" class="btn-success ">submit answer </button>
+
+
+ </div>
+
+ </form>
+
+</div>
+ 
+ 
+
+ 
+</body>
+</html>
+ <div class="container">
+ <div>
+ <h1>Creating Page Content</h1>
+ <p>Inside the body element of our web site we will use our "Layout Picture" and create:</p>
+ <ul>
+ <li>A navigation bar</li>
+ <li>A slide show</li>
+ <li>A header</li>
+ <li>A footer</li>
+ </ul>
+ </div>
+ <div>
+ <p>HTML5 introduced several new semantic elements. Semantic elements are important to use because they define the structure of web pages and helps screen readers and search engines to read the page correctly.</p>
+ <p>These are some of the most common semantic HTML elements:</p>
+ <p>The section element can be used to define a part of a website with related content.</p>
+ <p>The article element can be used to define an individual piece of content.</p>
+ <p>The header element can be used to define a header (in a document, a section, or an article).</p>
+ <p>The footer element can be used to define a footer (in a document, a section, or an article).</p>
+ <p>The nav element can be used to define a container of navigation links.</p>
+ </div>
+ <div>
+ <h1>The Navigation Bar</h1>
+ We can use a nav or div element as a container for the navigation links.
+
+ <p> The w3-bar class is a container for navigation links.
+ </p>
+
+ <p> The w3-black class defines the color of the navigation bar.
+ </p>
+ The w3-bar-item and w3-button class styles the navigation links inside the bar.
+ </div>
+
+ <form autocomplete="off" id="w3-e">
+ <div class="exercisewindow">
+ <h2>Exercise</h2>
+ <div class="exe">
+ <span style="color:red"><</span>
+ nav
+ <span style="color:rgb(223, 45, 14)">></span>
+ <br>
+ <span class="tagcolor" style="color:red"><</span>
+ a
+ <span class="attri" style="color:red">
+ href
+ <span class="atrrib" style="color:blue">
+ ="#Band"
+
+ </span>class
+ <span class="att" style="color:blue">="w3-button w3-bar-item"
+
+ </span>
+ </span>
+ <span style="color:blue">></span>
+ </span>
+ Band
+ <span class="tagcolor" style="color:red"><</span>
+ /a
+ <span class="tagcolor" style="color:red">></span>
+ <br>
+ <span class="tagcolor" style="color:red"><</span>
+ a
+ <span class="attri" style="color:red">
+ href
+ <span class="atrrib" style="color:blue">
+ ="#Home"
+
+ </span>class
+ <span class="att" style="color:blue">="w3-button w3-bar-item"
+
+ </span>
+ </span>
+ <span style="color:blue">></span>
+ </span>
+ Home
+ <span class="tagcolor" style="color:red"><</span>
+ /a
+ <span class="tagcolor" style="color:red">></span>
+ <br>
+ <span class="tagcolor" style="color:red"><</span>
+ a
+ <span class="attri" style="color:red">
+ href
+ <span class="atrrib" style="color:blue">
+ ="#Contact"
+ 
+ </span>class
+ <span class="att" style="color:blue">="w3-button w3-bar-item"
+ 
+ </span>
+ </span>
+ <span style="color:blue">></span>
+ </span>
+ Contact
+ <span class="tagcolor" style="color:red"><</span>
+ /a
+ <span class="tagcolor" style="color:red">></span>
+
+ <br>
+ <span style="color:red"><</span>
+ /nav
+ <span style="color:rgb(223, 45, 14)">></span>
+ 
+ </div>
+ </div>
+ <br>
+ <button type="button" class="btn-success ">submit answer </button>
+
+
+ </div>
+
+ </form>
+ <div class="container">
+ <h1>Slide Show</h1>
+ 
+ <p> On the "Layout Draft" we have a "Slide show".</p>
+
+ <p> For the slide show we can use a <section> or <div> element as a picture container:
+ </p>
+ We need to add a little JavaScript to change the images every 3 seconds:
+ 
+
+ <form autocomplete="off" id="w3-e">
+ <div class="exercisewindow ">
+ <h2>Exercise</h2>
+ <div class="exe">
+ <span style="color:red"><</span>
+ section
+ <span style="color:rgb(223, 45, 14)">></span>
+ <br>
+ <span class="tagcolor" style="color:red"><</span>
+ img
+ <span class="attri" style="color:red">
+ class
+ <span class="atrrib" style="color:blue">
+ ="myslides"
+
+ </span>src
+ <span class="att" style="color:blue">="img_la.jpg"
+
+ </span>
+ style
+ <span class="att" style="color:blue">="width:100%"
+
+ </span>
+ </span>
+ 
+ </span>
+ 
+ <span class="tagcolor" style="color:red">></span>
+ <br>
+ <span class="tagcolor" style="color:red"><</span>
+ img
+ <span class="attri" style="color:red">
+ class
+ <span class="atrrib" style="color:blue">
+ ="myslides"
+
+ </span>src
+ <span class="att" style="color:blue">="img_ny.jpg"
+
+ </span>
+ style
+ <span class="att" style="color:blue">="width:100%"
+
+ </span>
+ </span>
+ 
+ </span>
+ 
+ <span class="tagcolor" style="color:red">></span>
+ 
+ <br>
+ <span style="color:red"><</span>
+ /section
+ <span style="color:rgb(223, 45, 14)">></span>
+ 
+ </div>
+ <br>
+ <button type="button" class="btn-success ">submit answer </button>
+
+
+ </div>
+
+ </form>
+ </div>
+ <div class="container">
+ <h1>Sections and Articles</h1>
+ <p>Looking at the "Layout Draft" we can see that the next step is to create articles.
+
+ First we will create a section or div element containing band information:</p>
+ <form autocomplete="off" id="w3-e">
+ <div class="exercisewindow ">
+ <h2>Exercise</h2>
+ <div class="exe">
+ 
+ <span style="color:red"><</span>section
+ <span style="color:red">class</span>
+ <span class="att" style="color:blue">="w3-container center"
+ <span style="color:red">style</span>
+ <span class="att" style="color:blue">="max-width:500px"
+ <span style="color:rgb(195, 21, 21)">></span>
+ 
+ </span>
+ <br>
+ <span style="color:rgb(213, 49, 49)"><</span>h2
+ <span style="color:red">class</span>
+ <span class="att" style="color:blue">="w3-wide"
+ <span style="color:rgb(195, 21, 21)">></span>THE BAND
+ <span style="color:rgb(160, 11, 11)"><</span>/h2
+ 
+ <span style="color:rgb(195, 21, 21)">></span>
+ <span style="color:red"><</span>/section
+ 
+ <span style="color:red">></span>
+ 
+</span>
+</div>
+<br>
+<button type="button" class="btn-success ">submit answer </button>
+
+</div>
+</form>
+
+
+ 
+
+ </div>
+
+<div class="container">
+ <h1>Footer</h1>
+ <p>Finally we will use a footer or div to create a footer</p>
+
+ <form autocomplete="off" id="w3-e">
+ <div class="exercisewindow">
+ <h2>Exercise</h2>
+ <div class="exe">
+ <span style="color:red"><</span>
+ footer
+ <span style="color:rgb(223, 45, 14)">></span>
+ <br>
+ <span class="tagcolor" style="color:red"><</span>
+ a
+ <span class="attri" style="color:red">
+ href
+ <span class="atrrib" style="color:blue">
+ ="#details"
+
+ </span>class
+ <span class="att" style="color:blue">="w3-button w3-bar-item"
+
+ </span>
+ </span>
+ <span style="color:blue">></span>
+ </span>
+ Details
+ <span class="tagcolor" style="color:red"><</span>
+ /a
+ <span class="tagcolor" style="color:red">></span>
+ <br>
+ <span class="tagcolor" style="color:red"><</span>
+ a
+ <span class="attri" style="color:red">
+ href
+ <span class="atrrib" style="color:blue">
+ ="#socialmedia"
+
+ </span>class
+ <span class="att" style="color:blue">="w3-button w3-bar-item"
+
+ </span>
+ </span>
+ <span style="color:blue">></span>
+ </span>
+ Socialmedia
+ <span class="tagcolor" style="color:red"><</span>
+ /a
+ <span class="tagcolor" style="color:red">></span>
+ <br>
+ <span class="tagcolor" style="color:red"><</span>
+ a
+ <span class="attri" style="color:red">
+ href
+ <span class="atrrib" style="color:blue">
+ ="#Contact"
+ 
+ </span>class
+ <span class="att" style="color:blue">="w3-button w3-bar-item"
+ 
+ </span>
+ </span>
+ <span style="color:blue">></span>
+ </span>
+ Contact
+ <span class="tagcolor" style="color:red"><</span>
+ /a
+ <span class="tagcolor" style="color:red">></span>
+
+ <br>
+ <span style="color:red"><</span>
+ /footer
+ <span style="color:rgb(223, 45, 14)">></span>
+ 
+ </div>
+ </div>
+ <br>
+ <button type="button" class="btn-success ">submit answer </button>
+
+
+ </div>
+
+ </form>
+
+</div>
+</body>
+</html>

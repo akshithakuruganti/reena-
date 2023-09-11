@@ -1,0 +1,16 @@
+table {
+    width: 500px;
+    text-align: center;
+    margin:auto;
+    font:italic;
+}
+table,th,td {
+    border: 2px solid black;
+    border-collapse:collapse;
+    padding: 10px;
+    font:bold'
+
+}
+.xyz{
+    border-top-style: hidden;
+}

@@ -1,0 +1,21 @@
+table {
+    width: 1040px;
+    text-align: center;
+    margin:auto;
+}
+table,th,td {
+    border: 2px solid black;
+    border-collapse:collapse;
+    padding: 10px;
+
+}
+.xyz{
+    border-top-style: hidden;
+}
+
+body {
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://t4.ftcdn.net/jpg/02/23/82/83/360_F_223828327_QyLrdWkm3DrVCfuHzGvTayT6vsE24d0L.jpg");
+    min-height: 100%;
+  }
